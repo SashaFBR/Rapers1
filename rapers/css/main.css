@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ce93d8;
+    position: relative;
+}
+
+.table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    min-width: 700px;
+    min-height: 800px;
+    
+}
+
+.table img {
+    width: 500px;
+    height: 300px;
+}
+
+.table table {
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.table table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.list {
+    width: 100px;
+    height: 100px;
+    background: rgb(25, 25, 196);
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
